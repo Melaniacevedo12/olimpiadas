@@ -12,8 +12,8 @@ print("-------------------------------------------------------------------------
 
 # 1. Agregar Fahrenheit 451 si está 1984
 if "1984" in libros:
-    respuesta = input("¿Agregar 'Fahrenheit 451'? (s/n): ")
-    if respuesta == "s":
+    respuesta = input("¿Agregar 'Fahrenheit 451'? (si/no): ")
+    if respuesta == "si":
         libros.append("Fahrenheit 451")
         print("'Fahrenheit 451' fue añadido.")
     else:
@@ -23,8 +23,8 @@ print("-------------------------------------------------------------------------
 
 # 2. Agregar Ray Bradbury si está George Orwell
 if "George Orwell" in autores:
-    respuesta = input("¿Agregar 'Ray Bradbury'? (s/n): ")
-    if respuesta == "s":
+    respuesta = input("¿Agregar 'Ray Bradbury'? (si/no): ")
+    if respuesta == "si":
         autores.append("Ray Bradbury")
         print("'Ray Bradbury' fue añadido.")
     else:
@@ -34,8 +34,8 @@ print("-------------------------------------------------------------------------
 
 # 3. Eliminar El principito si está
 if "El principito" in libros:
-    respuesta = input("¿Eliminar 'El principito'? (s/n): ")
-    if respuesta == "s":
+    respuesta = input("¿Eliminar 'El principito'? (si/no): ")
+    if respuesta == "si":
         libros.remove("El principito")
         print("'El principito' fue eliminado.")
     else:
@@ -45,8 +45,8 @@ print("-------------------------------------------------------------------------
 
 # 4. Eliminar primer autor si hay más de 3
 if len(autores) > 3:
-    respuesta = input(f"¿Eliminar el primer autor '{autores[0]}'? (s/n): ")
-    if respuesta == "s":
+    respuesta = input(f"¿Eliminar el primer autor '{autores[0]}'? (si/no): ")
+    if respuesta == "si":
         eliminado = autores.pop(0)
         print(f"'{eliminado}' fue eliminado.")
     else:
@@ -90,8 +90,8 @@ print("-------------------------------------------------------------------------
 
 # 9. Añadir Premio Nobel
 if "Crónica de una muerte anunciada" in destacados:
-    respuesta = input("¿Agregar 'Premio Nobel' a destacados? (s/n): ")
-    if respuesta == "s":
+    respuesta = input("¿Agregar 'Premio Nobel' a destacados? (si/no): ")
+    if respuesta == "si":
         destacados.append("Premio Nobel")
         print("'Premio Nobel' fue añadido.")
     else:
@@ -115,8 +115,8 @@ print("-------------------------------------------------------------------------
 
 # 11. Agregar ubicación
 if registro:
-    respuesta = input("¿Agregar ubicación 'Estantería A3'? (s/n): ")
-    if respuesta == "s":
+    respuesta = input("¿Agregar ubicación 'Estantería A3'? (si/no): ")
+    if respuesta == "si":
         registro["ubicación"] = "Estantería A3"
         print("Ubicación añadida.")
     else:
@@ -127,8 +127,8 @@ print("-------------------------------------------------------------------------
 
 # 12. Agregar Don Quijote
 if "Don Quijote" not in libros:
-    respuesta = input("¿Agregar 'Don Quijote'? (s/n): ")
-    if respuesta == "s":
+    respuesta = input("¿Agregar 'Don Quijote'? (si/no): ")
+    if respuesta == "si":
         libros.append("Don Quijote")
         print("'Don Quijote' fue añadido.")
     else:
@@ -138,8 +138,8 @@ print("-------------------------------------------------------------------------
 
 # 13. Agregar El principito
 if "El principito" not in libros:
-    respuesta = input("¿Agregar 'El principito'? (s/n): ")
-    if respuesta == "s":
+    respuesta = input("¿Agregar 'El principito'? (si/no): ")
+    if respuesta == "si":
         libros.append("El principito")
         print("'El principito' fue añadido.")
     else:

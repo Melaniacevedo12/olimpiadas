@@ -47,7 +47,7 @@ print("-------------------------------------------------------------------------
 if len(autores) > 3:
     respuesta = input(f"¿Eliminar el primer autor '{autores[0]}'? (si/no): ")
     if respuesta == "si":
-        eliminado = autores.pop(0)
+        eliminado = autores.pop(0)                 #pop es para eliminar un valor 
         print(f"'{eliminado}' fue eliminado.")
     else:
         print("No se eliminó ningún autor.")
